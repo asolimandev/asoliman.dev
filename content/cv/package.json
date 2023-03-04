@@ -1,0 +1,20 @@
+{
+  "name": "@anthonyjdella/jsonresume-theme-anthonyjdella-stackoverflow",
+  "version": "1.0.8",
+  "description": "Stack Overflow theme for JSON Resume",
+  "author": "Anthony Dellavecchia <leeznon@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonyjdella/customized-jsonresume-theme-stackoverflow"
+  },
+  "scripts": {
+    "start": "resume serve --theme .",
+    "build": "mkdir -p public && resume export public/index.html --theme \"$(pwd)\""
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "moment": "^2.19.3"
+  }
+}

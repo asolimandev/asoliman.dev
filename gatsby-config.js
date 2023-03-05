@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Abdelrahman Soliman | Software Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Software Engineer`,
     // Optional: Twitter account handle
     author: `@asoliman`,
     // Optional: Github account URL

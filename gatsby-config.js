@@ -5,15 +5,15 @@ module.exports = {
     // Your Name
     name: 'Abdelrahman Soliman',
     // Main Site Title
-    title: `Abdelrahman Soliman | Software Developer`,
+    title: `Abdelrahman Soliman | Software Engineer`,
     // Description that goes under your name in main bio
     description: `Software Engineer`,
     // Optional: Twitter account handle
-    author: `@asolimandev`,
+    author: `asolimandev`,
     // Optional: Github account URL
     github: `https://github.com/asolimandev`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/asolimandev/`,
     // Content of the About Me section
     resume: `https://www.test.com/in/ryanafitzgerald/`,
     // Content of the About Me section

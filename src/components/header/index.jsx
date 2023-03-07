@@ -68,7 +68,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           )}
           {resume && (
             <li className={classes.item}>
-              <a className={classes.link} href={resume} download="Abdelrahman_Soliman_Resume.pdf">
+              <a className={classes.link} href={resume} download>
                 Resume <u>↓</u>
               </a>
             </li>

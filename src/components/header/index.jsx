@@ -35,13 +35,10 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
-          {twitter && (
+          {linkedin && (
             <li className={classes.item}>
-              <a
-                className={classes.link}
-                href={`https://twitter.com/${twitter}`}
-              >
-                Twitter
+              <a className={classes.link} href={linkedin}>
+                LinkedIn
               </a>
             </li>
           )}
@@ -52,10 +49,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {linkedin && (
+          {twitter && (
             <li className={classes.item}>
-              <a className={classes.link} href={linkedin}>
-                LinkedIn
+              <a
+                className={classes.link}
+                href={`https://twitter.com/${twitter}`}
+              >
+                Twitter
               </a>
             </li>
           )}
@@ -68,7 +68,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           )}
           {resume && (
             <li className={classes.item}>
-              <a className={classes.link} href={resume}>
+              <a className={classes.link} href={resume} download="Abdelrahman_Soliman_Resume.pdf">
                 Resume <u>↓</u>
               </a>
             </li>

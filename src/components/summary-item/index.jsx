@@ -10,7 +10,7 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
   } else {
-    linkContent = <a href={link} target="_blank">{name}🔗</a>;
+    linkContent = <a href={link} target="_blank">{name} 🔗</a>;
   }
   return (
     <div className={classes.wrapper}>

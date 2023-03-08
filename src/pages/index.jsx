@@ -1,7 +1,6 @@
 import { graphql } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
-
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SectionAbout from '../components/section-about';
@@ -10,7 +9,6 @@ import SectionExperience from '../components/section-experience';
 import SectionProjects from '../components/section-projects';
 import SectionSkills from '../components/section-skills';
 import SEO from '../components/seo';
-
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
   const projects = get(data, 'site.siteMetadata.projects', false);
@@ -18,7 +16,6 @@ const Index = ({ data }) => {
   const experience = get(data, 'site.siteMetadata.experience', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
   const noBlog = !posts || !posts.length;
-
   return (
     <Layout>
       <SEO />
@@ -33,9 +30,7 @@ const Index = ({ data }) => {
     </Layout>
   );
 };
-
 export default Index;
-
 export const pageQuery = graphql`
   query {
     site {

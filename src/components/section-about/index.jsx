@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Section from '../section';
-
 const SectionAbout = ({ about }) => {
   return (
     <Section title="About Me">
@@ -11,5 +9,4 @@ const SectionAbout = ({ about }) => {
     </Section>
   );
 };
-
 export default SectionAbout;

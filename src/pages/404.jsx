@@ -1,14 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
-
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-
 const classes = {
   title: 'text-lg font-bold',
   link: 'underline',
 };
-
 const NotFoundPage = () => (
   <Layout>
     <SEO title="Not found" />
@@ -22,5 +19,4 @@ const NotFoundPage = () => (
     </p>
   </Layout>
 );
-
 export default NotFoundPage;

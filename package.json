@@ -1,7 +1,7 @@
 {
   "name": "asoliman",
   "private": true,
-  "description": "A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS",
+  "description": "asoliman.dev",
   "version": "0.1.0",
   "author": "Abdelrahman Soliman",
   "dependencies": {

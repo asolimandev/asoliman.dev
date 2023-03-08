@@ -1,20 +1,16 @@
 import { graphql } from 'gatsby';
 import React from 'react';
-
 import BlogPosts from '../components/blog-posts';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import NotFound from '../pages/404';
-
 const Index = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   const noBlog = !posts || !posts.length;
-
   if (!posts || !posts.length) {
     return <NotFound />;
   }
-
   return (
     <Layout>
       <SEO title="Blog" />
@@ -23,9 +19,7 @@ const Index = ({ data }) => {
     </Layout>
   );
 };
-
 export default Index;
-
 export const pageQuery = graphql`
   query {
     site {

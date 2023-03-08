@@ -1,8 +1,6 @@
 import React from 'react';
-
 import Section from '../section';
 import SummaryItem from '../summary-item';
-
 const SectionSkills = ({ skills }) => {
   return (
     <Section title="Skills">
@@ -16,5 +14,4 @@ const SectionSkills = ({ skills }) => {
     </Section>
   );
 };
-
 export default SectionSkills;

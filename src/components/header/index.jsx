@@ -3,7 +3,6 @@ import get from 'lodash/get';
 import React from 'react';
 import resumeFile from '../../../r.pdf' 
 import profileImg from '../../images/profile.jpg';
-
 const classes = {
   wrapper: 'block mb-6 md:flex',
   imageWrapper: 'w-full max-w-150',
@@ -16,7 +15,6 @@ const classes = {
   link:
     'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
 };
-
 const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
@@ -78,5 +76,4 @@ const Header = ({ metadata = {}, noBlog = false }) => {
     </div>
   );
 };
-
 export default Header;

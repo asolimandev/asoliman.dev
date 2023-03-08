@@ -1,9 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
-
 import Section from '../section';
 import SummaryItem from '../summary-item';
-
 const SectionBlog = ({ posts }) => {
   return (
     <Section title="Latest Posts">
@@ -24,5 +22,4 @@ const SectionBlog = ({ posts }) => {
     </Section>
   );
 };
-
 export default SectionBlog;

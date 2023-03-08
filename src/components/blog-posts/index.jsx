@@ -1,8 +1,6 @@
 import React from 'react';
-
 import Section from '../section';
 import SummaryItem from '../summary-item';
-
 const BlogPosts = ({ posts }) => {
   return (
     <Section title="All Blog Posts">
@@ -18,5 +16,4 @@ const BlogPosts = ({ posts }) => {
     </Section>
   );
 };
-
 export default BlogPosts;

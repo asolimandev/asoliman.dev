@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/asolimandev/`,
     // Content of the About Me section
-    about: `The content of the body element is displayed in your browser. &#097;&#115;&#111;&#108;&#105;&#109;&#097;&#110;&#032;(&#097;&#116;)&#032;&#099;&#099;&#115;&#108;&#046;&#099;&#097;&#114;&#108;&#101;&#116;&#111;&#110;&#046;&#099;&#097;`,
+    about: `The content of the body element is displayed in your browser. asoliman (at) ccsl.carleton.ca`,
     education: [
       {
         name: 'Devfolio',

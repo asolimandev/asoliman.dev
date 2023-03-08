@@ -10,10 +10,10 @@ module.exports = {
     about: `The content of the body element is displayed in your browser. asoliman (at) ccsl.carleton.ca`,
     education: [
       {
-        name: 'Devfolio',
+        name: 'Masters in Computer Science at Carleton University',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Specialized in Internet Security. Started in Sep 2022 under the supervision of Prof. Abdou.',
+        link: 'https://security.scs.carleton.ca/people.html',
       },
       {
         name: 'ChromeExtensionKit',

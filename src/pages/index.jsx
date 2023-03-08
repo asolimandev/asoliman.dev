@@ -11,10 +11,14 @@ import SectionSkills from '../components/section-skills';
 import SEO from '../components/seo';
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
-  const projects = get(data, 'site.siteMetadata.projects', false);
-  const posts = data.allMarkdownRemark.edges;
-  const experience = get(data, 'site.siteMetadata.experience', false);
+  const education = get(data, 'site.siteMetadata.education', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
+  const projects = get(data, 'site.siteMetadata.projects', false);
+  const experience = get(data, 'site.siteMetadata.experience', false);
+  const awards = get(data, 'site.siteMetadata.awards', false);
+  const certifications = get(data, 'site.siteMetadata.certifications', false);
+  const volunteering = get(data, 'site.siteMetadata.volunteering', false);
+  const posts = data.allMarkdownRemark.edges;
   const noBlog = !posts || !posts.length;
   return (
     <Layout>
@@ -43,6 +47,15 @@ export const pageQuery = graphql`
         github
         linkedin
         resume
+        education {
+          name
+          description
+          link
+        }
+        skills {
+          name
+          description
+        }
         projects {
           name
           description
@@ -53,9 +66,20 @@ export const pageQuery = graphql`
           description
           link
         }
-        skills {
+        awards {
           name
           description
+          link
+        }
+        certifications {
+          name
+          description
+          link
+        }
+        volunteering {
+          name
+          description
+          link
         }
       }
     }

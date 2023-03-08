@@ -16,7 +16,42 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/asolimandev/`,
     // Content of the About Me section
     about: `The content of the body element is displayed in your browser. &#097;&#115;&#111;&#108;&#105;&#109;&#097;&#110;&#032;(&#097;&#116;)&#032;&#099;&#099;&#115;&#108;&#046;&#099;&#097;&#114;&#108;&#101;&#116;&#111;&#110;&#046;&#099;&#097;`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    education: [
+      {
+        name: 'Devfolio',
+        description:
+          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'ChromeExtensionKit',
+        description:
+          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+        link: 'https://chromeextensionkit.com/?ref=devfolio',
+      },
+      {
+        name: 'Another Cool Project',
+        description:
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+    ],
+    skills: [
+      {
+        name: 'Languages & Frameworks',
+        description:
+          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+      },
+      {
+        name: 'Databases',
+        description: 'MongoDB, PostreSQL, MySQL',
+      },
+      {
+        name: 'Other',
+        description:
+          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+      },
+    ],
     projects: [
       {
         name: 'Devfolio',
@@ -37,7 +72,6 @@ module.exports = {
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
         name: 'Acme Corp',
@@ -55,21 +89,55 @@ module.exports = {
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
-    // Optional: List your skills, they must have `name` and `description`.
-    skills: [
+    awards: [
       {
-        name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+        name: 'Acme Corp',
+        description: 'Full-Stack Developer, February 2020 - Present',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Globex Corp',
+        description: 'Full-Stack Developer, December 2017 - February 2020',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        name: 'Hooli',
+        description: 'Full-Stack Developer, May 2015 - December 2017',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+    ],
+    certifications: [
+      {
+        name: 'Acme Corp',
+        description: 'Full-Stack Developer, February 2020 - Present',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Globex Corp',
+        description: 'Full-Stack Developer, December 2017 - February 2020',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Hooli',
+        description: 'Full-Stack Developer, May 2015 - December 2017',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+    ],
+    volunteering: [
+      {
+        name: 'Acme Corp',
+        description: 'Full-Stack Developer, February 2020 - Present',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Globex Corp',
+        description: 'Full-Stack Developer, December 2017 - February 2020',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Hooli',
+        description: 'Full-Stack Developer, May 2015 - December 2017',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
   },

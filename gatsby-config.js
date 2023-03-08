@@ -1,20 +1,12 @@
 module.exports = {
   siteMetadata: {
-    // Site URL for when it goes live
     siteUrl: `https://asoliman.dev/`,
-    // Your Name
     name: 'Abdelrahman Soliman',
-    // Main Site Title
     title: `Abdelrahman Soliman | Software Engineer`,
-    // Description that goes under your name in main bio
     description: `Software Engineer | Ottawa, Ontario`,
-    // Optional: Twitter account handle
     author: `asolimandev`,
-    // Optional: Github account URL
     github: `https://github.com/asolimandev`,
-    // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/asolimandev/`,
-    // Content of the About Me section
     about: `The content of the body element is displayed in your browser. asoliman (at) ccsl.carleton.ca`,
     education: [
       {
@@ -194,7 +186,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+        trackingId: `G-58JHMLR3CZ`,
       },
     },
     {

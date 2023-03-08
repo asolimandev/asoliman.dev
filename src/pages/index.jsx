@@ -4,10 +4,14 @@ import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SectionAbout from '../components/section-about';
-import SectionBlog from '../components/section-blog';
-import SectionExperience from '../components/section-experience';
-import SectionProjects from '../components/section-projects';
+import SectionEducation from '../components/section-education';
 import SectionSkills from '../components/section-skills';
+import SectionProjects from '../components/section-projects';
+import SectionExperience from '../components/section-experience';
+import SectionAwards from '../components/section-awards';
+import SectionCertifications from '../components/section-certifications';
+import SectionVolunteering from '../components/section-volunteering';
+import SectionBlog from '../components/section-blog';
 import SEO from '../components/seo';
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
@@ -25,12 +29,14 @@ const Index = ({ data }) => {
       <SEO />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
-      {projects && projects.length && <SectionProjects projects={projects} />}
-      {!noBlog && <SectionBlog posts={posts} />}
-      {experience && experience.length && (
-        <SectionExperience experience={experience} />
-      )}
+      {education && education.length && <SectionEducation education={education} />}
       {skills && skills.length && <SectionSkills skills={skills} />}
+      {projects && projects.length && <SectionProjects projects={projects} />}
+      {experience && experience.length && ( <SectionExperience experience={experience} /> )}
+      {awards && awards.length && <SectionAwards awards={awards} />}
+      {certifications && certifications.length && <SectionCertifications certifications={certifications} />}
+      {volunteering && volunteering.length && <SectionVolunteering volunteering={volunteering} />}
+      {!noBlog && <SectionBlog posts={posts} />}
     </Layout>
   );
 };

@@ -8,18 +8,19 @@ module.exports = {
     github: `https://github.com/asolimandev`,
     linkedin: `https://www.linkedin.com/in/asolimandev/`,
     about: `The content of the body element is displayed in your browser. asoliman (at) ccsl.carleton.ca`,
+    
     education: [
       {
-        name: 'Masters in Computer Science at Carleton University',
+        name: 'Masters in Computer Science | Carleton University',
         description:
           'Specialized in Internet Security. Started in Sep 2022 under the supervision of Prof. Abdou.',
         link: 'https://security.scs.carleton.ca/people.html',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Bachelor in Computer Science | Arab Academy for Science and Technology',
         description:
           'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+        link: 'https://aast.edu/en/colleges/ccit/alex/index.php',
       },
       {
         name: 'Another Cool Project',

@@ -1,3 +1,8 @@
+---
+title: Building a Responsive Web Application using React
+date: '2022-09-20T12:00:00.00Z'
+description: 'A detailed step-by-step guide for software engineers to build a responsive web application using React.'
+---
 ## Building a Responsive Web Application using React
 In today's digital world, responsive web design is a must-have feature for any web application. With the increasing use of mobile devices, it has become essential to ensure that web applications are responsive across various devices and platforms. In this blog post, I will discuss how to build a responsive web application using React, a popular front-end JavaScript library.
 

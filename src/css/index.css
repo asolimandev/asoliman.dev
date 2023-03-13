@@ -81,11 +81,18 @@
     @apply my-6;
   }
 }
-
 @layer utilities {
   @responsive {
     .max-w-150 {
       max-width: 150px;
+    }
+
+    .min-h-100 {
+      min-hight: 100px;
+    }
+
+    .min-w-100 {
+      min-width: 100px;
     }
 
     .top-5 {
@@ -93,13 +100,6 @@
     }
   }
 }
-
-/**
- * atom-dark theme for `prism.js`
- * Based on Atom's `atom-dark` theme: https://github.com/atom/atom-dark-syntax
- * @author Joe Gibson (@gibsjose)
- */
-
 code[class*='language-'],
 pre[class*='language-'] {
   color: #c5c8c6;
@@ -123,26 +123,20 @@ pre[class*='language-'] {
   -ms-hyphens: none;
   hyphens: none;
 }
-
-/* Code blocks */
 pre[class*='language-'] {
   padding: 1em;
   margin: 0.5em 0;
   overflow: auto !important;
   border-radius: 0.3em;
 }
-
 :not(pre)>code[class*='language-'],
 pre[class*='language-'] {
   background: #1d1f21;
 }
-
-/* Inline code */
 :not(pre)>code[class*='language-'] {
   padding: 0.1em;
   border-radius: 0.3em;
 }
-
 .token.comment,
 .token.prolog,
 .token.doctype,

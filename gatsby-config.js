@@ -8,25 +8,23 @@ module.exports = {
     github: `https://github.com/asolimandev`,
     linkedin: `https://www.linkedin.com/in/asolimandev/`,
     about: `The content of the body element is displayed in your browser. asoliman (at) ccsl.carleton.ca`,
-    
     education: [
       {
-        name: 'Masters in Computer Science | Carleton University',
+        name: 'Masters in Computer Science | Carleton University, Ottawa, Ontario',
         description:
           'Specialized in Internet Security. Started in Sep 2022 under the supervision of Prof. Abdou.',
         link: 'https://security.scs.carleton.ca/people.html',
       },
       {
-        name: 'Bachelor in Computer Science | Arab Academy for Science and Technology',
+        name: 'Bachelor in Computer Science | Arab Academy for Science and Technology, Alexandria, Egypt',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+          'Cumulative GPA of 3.93/4.00 Excellent with Honors',
         link: 'https://aast.edu/en/colleges/ccit/alex/index.php',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Secondary School Diploma | AlSulaymaniyah Secondary School, Riyadh, Saudi Arabia',
         description:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
     skills: [
@@ -193,8 +191,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
-        short_name: `devfolio`,
+        name: `Abdelrahman Soliman`,
+        short_name: `asoliman`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile

@@ -104,8 +104,8 @@ module.exports = {
         link: 'https://badges.wes.org/Evidence?i=d56d2cb1-8833-4298-9a91-58c9ac71c9a5&type=ca',
       },
       {
-        name: 'IELTS',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
+        name: 'IELTS Academic Certification',
+        description: 'Overall Band 7: Getting 6.5 in Listening, 8 in Reading, 6 in Writing and 6.5 in Speaking in October 2021.',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {

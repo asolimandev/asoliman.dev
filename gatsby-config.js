@@ -25,7 +25,7 @@ module.exports = {
         name: 'Secondary School Diploma | AlSulaymaniyah Secondary School, Riyadh, Saudi Arabia',
         description:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-      },
+      }
     ],
     skills: [
       {
@@ -41,7 +41,7 @@ module.exports = {
         name: 'Other',
         description:
           'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
-      },
+      }
     ],
     projects: [
       {
@@ -61,7 +61,7 @@ module.exports = {
         description:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
         link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+      }
     ],
     experience: [
       {
@@ -78,7 +78,7 @@ module.exports = {
         name: 'Hooli',
         description: 'Full-Stack Developer, May 2015 - December 2017',
         link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+      }
     ],
     awards: [
       {
@@ -95,7 +95,7 @@ module.exports = {
         name: 'Hooli',
         description: 'Full-Stack Developer, May 2015 - December 2017',
         link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+      }
     ],
     certifications: [
       {
@@ -119,7 +119,7 @@ module.exports = {
         link: 'https://badges.wes.org/Evidence?i=d56d2cb1-8833-4298-9a91-58c9ac71c9a5&type=ca',
       },
       {
-        name: 'IBM Cybersecurity Analyst',
+        name: 'Cybersecurity Analyst Professional Certificate | IBM',
         description: 'Full-Stack Developer, December 2017 - February 2020',
         link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ZRJY5VDWJR62',
       },
@@ -157,7 +157,7 @@ module.exports = {
         name: 'IBM AI Engineering',
         description: 'Full-Stack Developer, May 2015 - December 2017',
         link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ALM859JN5WMG',
-      },
+      }
     ],
     volunteering: [
       {

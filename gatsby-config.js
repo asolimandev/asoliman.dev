@@ -32,7 +32,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP, Java, C/C++, Swift, Python, JavaScript, HTML and CSS',
       },
       {
         name: 'Databases',
@@ -73,7 +73,7 @@ module.exports = {
       {
         name: 'SUMED Internship',
         description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'http://www.sumed.org/',
       },
       {
         name: 'Hooli',

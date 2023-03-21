@@ -19,7 +19,7 @@ module.exports = {
         name: 'Bachelor in Computer Science | Arab Academy for Science and Technology, Alexandria, Egypt',
         description:
           'Cumulative GPA of 3.93/4.00 Excellent with Honors',
-        link: 'https://aast.edu/en/colleges/ccit/alex/index.php',
+        link: 'https://aastmtic.aast.edu/ebadge/index.aspx?guid=4324586d-bf30-4444-b2f6-230b0f6a4e53',
       },
       {
         name: 'Secondary School Diploma | AlSulaymaniyah Secondary School, Riyadh, Saudi Arabia',
@@ -65,12 +65,12 @@ module.exports = {
     ],
     experience: [
       {
-        name: 'Acme Corp',
+        name: 'ZADK for Software Development',
         description: 'Full-Stack Developer, February 2020 - Present',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Globex Corp',
+        name: 'SUMED Internship',
         description: 'Full-Stack Developer, December 2017 - February 2020',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
@@ -82,7 +82,7 @@ module.exports = {
     ],
     awards: [
       {
-        name: 'Acme Corp',
+        name: 'Second Semester 2015 – 2016',
         description: 'Full-Stack Developer, February 2020 - Present',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
@@ -99,19 +99,64 @@ module.exports = {
     ],
     certifications: [
       {
-        name: 'Acme Corp',
+        name: 'WES ICAP Evaluation',
         description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://badges.wes.org/Evidence?i=d56d2cb1-8833-4298-9a91-58c9ac71c9a5&type=ca',
       },
       {
-        name: 'Globex Corp',
+        name: 'IELTS',
         description: 'Full-Stack Developer, December 2017 - February 2020',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Hooli',
+        name: 'GRE',
         description: 'Full-Stack Developer, May 2015 - December 2017',
         link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Math Olympiad at King Fahd University of Petroleum and Minerals',
+        description: 'Full-Stack Developer, February 2020 - Present',
+        link: 'https://badges.wes.org/Evidence?i=d56d2cb1-8833-4298-9a91-58c9ac71c9a5&type=ca',
+      },
+      {
+        name: 'IBM Cybersecurity Analyst',
+        description: 'Full-Stack Developer, December 2017 - February 2020',
+        link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ZRJY5VDWJR62',
+      },
+      {
+        name: 'IBM AI Engineering',
+        description: 'Full-Stack Developer, May 2015 - December 2017',
+        link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ALM859JN5WMG',
+      },
+      {
+        name: 'Deep Learning',
+        description: 'Full-Stack Developer, February 2020 - Present',
+        link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/NEKYSAW5PK57',
+      },
+      {
+        name: 'Machine Learning Cross-Skilling Nano Certificate',
+        description: 'Full-Stack Developer, December 2017 - February 2020',
+        link: 'https://graduation.udacity.com/confirm/JLTWLW3X',
+      },
+      {
+        name: 'Machine Learning | Stanford University',
+        description: 'Full-Stack Developer, May 2015 - December 2017',
+        link: 'https://www.coursera.org/account/accomplishments/certificate/3YPZR4PXB9QM',
+      },
+      {
+        name: 'Machine Learning in Data Science | Harvard University',
+        description: 'Full-Stack Developer, February 2020 - Present',
+        link: 'https://courses.edx.org/certificates/b3adabc8fd8347f0809989ec33dde4e1',
+      },
+      {
+        name: 'IBM Cybersecurity Analyst',
+        description: 'Full-Stack Developer, December 2017 - February 2020',
+        link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ZRJY5VDWJR62',
+      },
+      {
+        name: 'IBM AI Engineering',
+        description: 'Full-Stack Developer, May 2015 - December 2017',
+        link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ALM859JN5WMG',
       },
     ],
     volunteering: [

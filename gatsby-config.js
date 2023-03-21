@@ -25,6 +25,7 @@ module.exports = {
         name: 'Secondary School Diploma | AlSulaymaniyah Secondary School, Riyadh, Saudi Arabia',
         description:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+        link: 'https://aastmtic.aast.edu/ebadge/index.aspx?guid=4324586d-bf30-4444-b2f6-230b0f6a4e53',
       }
     ],
     skills: [

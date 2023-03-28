@@ -30,11 +30,11 @@ const Index = ({ data }) => {
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
       {education && education.length && <SectionEducation education={education} />}
-      {skills && skills.length && <SectionSkills skills={skills} />}
-      {projects && projects.length && <SectionProjects projects={projects} />}
       {experience && experience.length && ( <SectionExperience experience={experience} /> )}
+      {projects && projects.length && <SectionProjects projects={projects} />}
       {awards && awards.length && <SectionAwards awards={awards} />}
       {certifications && certifications.length && <SectionCertifications certifications={certifications} />}
+      {skills && skills.length && <SectionSkills skills={skills} />}
       {volunteering && volunteering.length && <SectionVolunteering volunteering={volunteering} />}
       {!noBlog && <SectionBlog posts={posts} />}
     </Layout>

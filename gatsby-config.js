@@ -7,7 +7,7 @@ module.exports = {
     author: `asolimandev`,
     github: `https://github.com/asolimandev`,
     linkedin: `https://www.linkedin.com/in/asolimandev/`,
-    about: `Abdelrahman Soliman is an ambitious Computer Science graduate based in Ottawa, Ontario, Canada, with a strong background in software development. Having worked with prestigious organizations such as the Egyptian Armed Forces, eSpace, and Carleton University, Abdelrahman has gained a diverse skill set in various programming languages and technologies. Currently, as a Research and Teaching Assistant at Carleton University, he is pursuing a Master's degree in Cybersecurity while actively engaging in teaching and research in computer networks. With a proven track record of success in the software development industry, Abdelrahman is committed to making a significant impact in the field of cybersecurity. contact me at: abdelrahmansoliman (at) cmail.carleton.ca`,
+    about: `Abdelrahman Soliman is a skilled computer science graduate with diverse programming experience, currently pursuing a Master's degree in Internet Security and working as a Research and Teaching Assistant at Carleton University. contact me at: abdelrahmansoliman (at) cmail.carleton.ca`,
     education: [
       {
         name: 'Masters in Computer Science | Carleton University, Ottawa, Ontario',

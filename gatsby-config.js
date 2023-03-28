@@ -112,10 +112,12 @@ module.exports = {
       {
         name: 'IELTS Academic Certification',
         description: 'Overall Band 7: Getting 6.5 in Listening, 8 in Reading, 6 in Writing and 6.5 in Speaking in October 2021.',
+        link: '',
       },
       {
         name: 'GRE',
         description: 'On November 19, 2019, I scored 158 in Quantitative Reasoning, 144 in Verbal Reasoning, and 3.5 in Analytical Writing on the GRE exam.',
+        link: '',
       },
       {
         name: 'Math Olympiad at King Fahd University of Petroleum and Minerals',

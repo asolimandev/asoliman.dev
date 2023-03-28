@@ -28,72 +28,41 @@ module.exports = {
         link: 'https://drive.google.com/file/d/1HKX6MNhmopaR0giLVW6tPhbvFBXdz3cB/view?usp=share_link',
       }
     ],
-    skills: [
-      {
-        name: 'Languages & Frameworks',
-        description: 'HTML, CSS, JavaScript, jQuery, Angular, React.js, REST APIs, Node.js, Ruby on Rails, PHP, C, C++, C#, Bash, Python, Rust, Go, Kotlin, Swift, Android, Java, .NET Framework'
-      },
-      {
-        name: 'Cloud Services',
-        description: 'AWS Lambda, GCP, AWS'
-      },
-      {
-        name: 'Databases',
-        description: 'MongoDB, MySQL'
-      },
-      {
-        name: 'Machine Learning & AI',
-        description: 'Machine Learning, Artificial Intelligence (AI)'
-      },
-      {
-        name: 'Cybersecurity & Network Security',
-        description: 'Cybersecurity, Network Security'
-      },
-      {
-        name: 'Soft Skills',
-        description: 'Agile Methodologies, Analytical Skills, Critical Thinking, Attention to Detail, Creativity Skills, Time Management, Communication, Adaptability (Easily Adaptable), Leadership, Teamwork'
-      },
-      {
-        name: 'Project Management & Research',
-        description: 'Project Management, Research'
-      },
-      {
-        name: 'Microsoft Office',
-        description: 'Microsoft Office'
-      },
-      {
-        name: 'Other Skills',
-        description: 'Git, Object-Oriented Programming (OOP), Problem Solving'
-      }
-    ],
     experience: [
       {
         name: 'Research And Teaching Assistant | Carleton University',
         description: 'Sep 2022 - Present, Teaching cryptography and computer network courses, I closely guided students to success while conducting research that enhanced my expertise in internet security.',
+        link: ''
       },
       {
         name: 'Software Developer | ZADK Software Company',
         description: 'Sep 2021 - Sep 2022, Developed a well-received mobile app for booking sports facilities, focusing on user-friendliness, reliability, and essential features like real-time availability and user reviews.',
+        link: ''
       },
       {
         name: 'Software Developer | Egyptian Armed Forces',
         description: 'Aug 2020 - Sep 2021, Applied software development skills in military operations, gaining appreciation for discipline, teamwork, and respect for authority through military training.',
+        link: ''
       },
       {
         name: 'Full-stack Developer Internship | Information Technology Institute (ITI)',
         description: 'May 2020 - Aug 2020, Gained full-stack web development experience, applied agile methodologies, and improved teamwork skills through hands-on projects.',
+        link: ''
       },
       {
         name: 'Software Developer Internship | eSpace',
         description: 'May 2019 - Aug 2019, Worked on diverse projects, gained experience and improved technical skills in the software development industry.',
+        link: ''
       },
       {
         name: 'Web Developer Internship | Arab Petroleum Pipelines Company (SUMED)',
         description: 'Jun 2018 - Aug 2018, Developed well-received web application for report management, gaining valuable experience in web development and project management.',
+        link: ''
       },
       {
         name: 'Software Developer Internship | AAST Information and Documentation Center',
         description: 'Jun 2017 - Aug 2017, Developed software for managing digital resources at AAST, gaining hands-on experience in programming and collaboration skills.',
+        link: ''
       },
     ],
     awards: [
@@ -153,6 +122,44 @@ module.exports = {
         name: 'Machine Learning in Data Science Certificate | Harvard University',
         description: 'Acquired key knowledge in training data, predictive relationships, and techniques to avoid overtraining, such as cross-validation, while also gaining practical experience in building a movie recommendation system using machine learning algorithms.        ',
         link: 'https://courses.edx.org/certificates/b3adabc8fd8347f0809989ec33dde4e1',
+      }
+    ],
+    skills: [
+      {
+        name: 'Languages & Frameworks',
+        description: 'HTML, CSS, JavaScript, jQuery, Angular, React.js, REST APIs, Node.js, Ruby on Rails, PHP, C, C++, C#, Bash, Python, Rust, Go, Kotlin, Swift, Android, Java, .NET Framework'
+      },
+      {
+        name: 'Cloud Services',
+        description: 'AWS Lambda, GCP, AWS'
+      },
+      {
+        name: 'Databases',
+        description: 'MongoDB, MySQL'
+      },
+      {
+        name: 'Machine Learning & AI',
+        description: 'Machine Learning, Artificial Intelligence (AI)'
+      },
+      {
+        name: 'Cybersecurity & Network Security',
+        description: 'Cybersecurity, Network Security'
+      },
+      {
+        name: 'Soft Skills',
+        description: 'Agile Methodologies, Analytical Skills, Critical Thinking, Attention to Detail, Creativity Skills, Time Management, Communication, Adaptability (Easily Adaptable), Leadership, Teamwork'
+      },
+      {
+        name: 'Project Management & Research',
+        description: 'Project Management, Research'
+      },
+      {
+        name: 'Microsoft Office',
+        description: 'Microsoft Office'
+      },
+      {
+        name: 'Other Skills',
+        description: 'Git, Object-Oriented Programming (OOP), Problem Solving'
       }
     ],
     volunteering: [

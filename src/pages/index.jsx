@@ -58,13 +58,15 @@ export const pageQuery = graphql`
           description
           link
         }
-        skills {
-          name
-          description
-        }
         experience {
           name
           description
+          link
+        }
+        projects {
+          name
+          description
+          link
         }
         awards {
           name
@@ -75,6 +77,10 @@ export const pageQuery = graphql`
           name
           description
           link
+        }
+        skills {
+          name
+          description
         }
         volunteering {
           name

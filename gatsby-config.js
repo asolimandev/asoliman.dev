@@ -28,6 +28,7 @@ module.exports = {
         link: 'https://drive.google.com/file/d/1HKX6MNhmopaR0giLVW6tPhbvFBXdz3cB/view?usp=share_link',
       }
     ],
+    projects: [],
     skills: [
       {
         name: 'Languages & Frameworks',
@@ -124,32 +125,32 @@ module.exports = {
       },
       {
         name: 'Cybersecurity Analyst Professional Certificate | IBM',
-        description: 'gained essential cybersecurity knowledge and skills, including data protection, endpoint protection, SIEM, systems and network fundamentals, compliance, threat intelligence, incident response, and forensics, through multiple assessments, a real-world case study, and hands-on virtual labs.',
+        description: 'Gained essential cybersecurity knowledge and skills, including data protection, endpoint protection, SIEM, systems and network fundamentals, compliance, threat intelligence, incident response, and forensics, through multiple assessments, a real-world case study, and hands-on virtual labs.',
         link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ZRJY5VDWJR62',
       },
       {
         name: 'AI Engineering Professional Certificate | IBM',
-        description: 'gained practical expertise in Machine Learning and Deep Learning, developed AI Engineering skills, mastered various ML algorithms and deep learning models, and demonstrated proficiency in presenting and communicating project results.',
+        description: 'Gained practical expertise in Machine Learning and Deep Learning, developed AI Engineering skills, mastered various ML algorithms and deep learning models, and demonstrated proficiency in presenting and communicating project results.',
         link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ALM859JN5WMG',
       },
       {
         name: 'Deep Learning Specialization | DeepLearning.AI',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        description: 'I have mastered neural network architectures, optimization strategies, and industry applications using Python and TensorFlow, while gaining experience in real-world cases such as speech recognition, music synthesis, and natural language processing, preparing me to contribute to cutting-edge AI development.',
         link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/NEKYSAW5PK57',
       },
       {
         name: 'Machine Learning Cross-Skilling Nano Certificate | Ministry of Communication and Information Technology',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
+        description: 'Acquired advanced machine learning techniques and algorithms, gained practical experience deploying models using Amazon SageMaker, and developed industry-relevant skills such as A/B testing and updating models based on new data.',
         link: 'https://graduation.udacity.com/confirm/JLTWLW3X',
       },
       {
         name: 'Machine Learning Certificate | Stanford University',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
+        description: 'Gained fundamental skills in algorithms, data analysis, and programming for real-world applications.',
         link: 'https://www.coursera.org/account/accomplishments/certificate/3YPZR4PXB9QM',
       },
       {
         name: 'Machine Learning in Data Science Certificate | Harvard University',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        description: 'Acquired key knowledge in training data, predictive relationships, and techniques to avoid overtraining, such as cross-validation, while also gaining practical experience in building a movie recommendation system using machine learning algorithms.        ',
         link: 'https://courses.edx.org/certificates/b3adabc8fd8347f0809989ec33dde4e1',
       }
     ],

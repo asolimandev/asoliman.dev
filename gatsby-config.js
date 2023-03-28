@@ -2,12 +2,12 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://asoliman.dev/`,
     name: 'Abdelrahman Soliman',
-    title: `Abdelrahman Soliman | Software Engineer`,
-    description: `Software Engineer | Ottawa, Ontario`,
+    title: `Abdelrahman Soliman | Software Developer`,
+    description: `Software Developer | Ottawa, Ontario`,
     author: `asolimandev`,
     github: `https://github.com/asolimandev`,
     linkedin: `https://www.linkedin.com/in/asolimandev/`,
-    about: `The content of the body element is displayed in your browser. asoliman (at) ccsl.carleton.ca`,
+    about: `Abdelrahman Soliman is an ambitious Computer Science graduate based in Ottawa, Ontario, Canada, with a strong background in software development. Having worked with prestigious organizations such as the Egyptian Armed Forces, eSpace, and Carleton University, Abdelrahman has gained a diverse skill set in various programming languages and technologies. Currently, as a Research and Teaching Assistant at Carleton University, he is pursuing a Master's degree in Cybersecurity while actively engaging in teaching and research in computer networks. With a proven track record of success in the software development industry, Abdelrahman is committed to making a significant impact in the field of cybersecurity. contact me at: abdelrahmansoliman (at) cmail.carleton.ca`,
     education: [
       {
         name: 'Masters in Computer Science | Carleton University, Ottawa, Ontario',
@@ -22,158 +22,166 @@ module.exports = {
         link: 'https://aastmtic.aast.edu/ebadge/index.aspx?guid=4324586d-bf30-4444-b2f6-230b0f6a4e53',
       },
       {
-        name: 'Secondary School Diploma | AlSulaymaniyah Secondary School, Riyadh, Saudi Arabia',
+        name: 'High School Diploma | AlSulaymaniyah Secondary School, Riyadh, Saudi Arabia',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://aastmtic.aast.edu/ebadge/index.aspx?guid=4324586d-bf30-4444-b2f6-230b0f6a4e53',
+          'Grade of 99.95%',
+        link: 'https://drive.google.com/file/d/1HKX6MNhmopaR0giLVW6tPhbvFBXdz3cB/view?usp=share_link',
       }
     ],
     skills: [
       {
         name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP, Java, C/C++, Swift, Python, JavaScript, HTML and CSS',
+        description: 'HTML, CSS, JavaScript, jQuery, Angular, React.js, REST APIs, Node.js, Ruby on Rails, PHP, C, C++, C#, Bash, Python, Rust, Go, Kotlin, Swift, Android, Java, .NET Framework'
+      },
+      {
+        name: 'Cloud Services',
+        description: 'AWS Lambda, GCP, AWS'
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, MySQL'
       },
       {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
-      }
-    ],
-    projects: [
-      {
-        name: 'Devfolio',
-        description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Machine Learning & AI',
+        description: 'Machine Learning, Artificial Intelligence (AI)'
       },
       {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+        name: 'Cybersecurity & Network Security',
+        description: 'Cybersecurity, Network Security'
       },
       {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Soft Skills',
+        description: 'Agile Methodologies, Analytical Skills, Critical Thinking, Attention to Detail, Creativity Skills, Time Management, Communication, Adaptability (Easily Adaptable), Leadership, Teamwork'
+      },
+      {
+        name: 'Project Management & Research',
+        description: 'Project Management, Research'
+      },
+      {
+        name: 'Microsoft Office',
+        description: 'Microsoft Office'
+      },
+      {
+        name: 'Other Skills',
+        description: 'Git, Object-Oriented Programming (OOP), Problem Solving'
       }
     ],
     experience: [
       {
-        name: 'ZADK for Software Development',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Research And Teaching Assistant | Carleton University',
+        description: 'Sep 2022 - Present, Teaching cryptography and computer network courses, I closely guided students to success while conducting research that enhanced my expertise in internet security.',
       },
       {
-        name: 'SUMED Internship',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'http://www.sumed.org/',
+        name: 'Software Developer | ZADK Software Company',
+        description: 'Sep 2021 - Sep 2022, Developed a well-received mobile app for booking sports facilities, focusing on user-friendliness, reliability, and essential features like real-time availability and user reviews.',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      }
+        name: 'Software Developer | Egyptian Armed Forces',
+        description: 'Aug 2020 - Sep 2021, Applied software development skills in military operations, gaining appreciation for discipline, teamwork, and respect for authority through military training.',
+      },
+      {
+        name: 'Full-stack Developer Internship | Information Technology Institute (ITI)',
+        description: 'May 2020 - Aug 2020, Gained full-stack web development experience, applied agile methodologies, and improved teamwork skills through hands-on projects.',
+      },
+      {
+        name: 'Software Developer Internship | eSpace',
+        description: 'May 2019 - Aug 2019, Worked on diverse projects, gained experience and improved technical skills in the software development industry.',
+      },
+      {
+        name: 'Web Developer Internship | Arab Petroleum Pipelines Company (SUMED)',
+        description: 'Jun 2018 - Aug 2018, Developed well-received web application for report management, gaining valuable experience in web development and project management.',
+      },
+      {
+        name: 'Software Developer Internship | AAST Information and Documentation Center',
+        description: 'Jun 2017 - Aug 2017, Developed software for managing digital resources at AAST, gaining hands-on experience in programming and collaboration skills.',
+      },
     ],
     awards: [
       {
-        name: 'Second Semester 2015 – 2016',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'AAST Full Merit-Based Scholarship',
+        description: 'The scholarship was awarded based on my outstanding academic achievements, leadership potential, and involvement in extracurricular activities.',
+        link: 'https://drive.google.com/drive/u/1/folders/1Unpa0hpEKXTA6KCA6Q4ueIZ6SQZqYBFx',
       }
     ],
     certifications: [
       {
         name: 'WES ICAP Evaluation',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        description: 'Credential assessment for Bachelor of Computer Science earned at Arab Academy for Science and Technology',
         link: 'https://badges.wes.org/Evidence?i=d56d2cb1-8833-4298-9a91-58c9ac71c9a5&type=ca',
       },
       {
         name: 'IELTS Academic Certification',
         description: 'Overall Band 7: Getting 6.5 in Listening, 8 in Reading, 6 in Writing and 6.5 in Speaking in October 2021.',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
         name: 'GRE',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        description: 'On November 19, 2019, I scored 158 in Quantitative Reasoning, 144 in Verbal Reasoning, and 3.5 in Analytical Writing on the GRE exam.',
       },
       {
         name: 'Math Olympiad at King Fahd University of Petroleum and Minerals',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://badges.wes.org/Evidence?i=d56d2cb1-8833-4298-9a91-58c9ac71c9a5&type=ca',
+        description: 'After qualifying for the second phase in the math olympiad at King Fahd University of Petroleum and Minerals, I found the experience rewarding and beneficial for my future academic and professional pursuits.',
+        link: 'https://drive.google.com/file/d/19mPGWJa6nsEbTQYUTY4o6NH6ciPoN0Rt/view?usp=share_link',
       },
       {
         name: 'Cybersecurity Analyst Professional Certificate | IBM',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
+        description: 'gained essential cybersecurity knowledge and skills, including data protection, endpoint protection, SIEM, systems and network fundamentals, compliance, threat intelligence, incident response, and forensics, through multiple assessments, a real-world case study, and hands-on virtual labs.',
         link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ZRJY5VDWJR62',
       },
       {
-        name: 'IBM AI Engineering',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
+        name: 'AI Engineering Professional Certificate | IBM',
+        description: 'gained practical expertise in Machine Learning and Deep Learning, developed AI Engineering skills, mastered various ML algorithms and deep learning models, and demonstrated proficiency in presenting and communicating project results.',
         link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ALM859JN5WMG',
       },
       {
-        name: 'Deep Learning',
+        name: 'Deep Learning Specialization | DeepLearning.AI',
         description: 'Full-Stack Developer, February 2020 - Present',
         link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/NEKYSAW5PK57',
       },
       {
-        name: 'Machine Learning Cross-Skilling Nano Certificate',
+        name: 'Machine Learning Cross-Skilling Nano Certificate | Ministry of Communication and Information Technology',
         description: 'Full-Stack Developer, December 2017 - February 2020',
         link: 'https://graduation.udacity.com/confirm/JLTWLW3X',
       },
       {
-        name: 'Machine Learning | Stanford University',
+        name: 'Machine Learning Certificate | Stanford University',
         description: 'Full-Stack Developer, May 2015 - December 2017',
         link: 'https://www.coursera.org/account/accomplishments/certificate/3YPZR4PXB9QM',
       },
       {
-        name: 'Machine Learning in Data Science | Harvard University',
+        name: 'Machine Learning in Data Science Certificate | Harvard University',
         description: 'Full-Stack Developer, February 2020 - Present',
         link: 'https://courses.edx.org/certificates/b3adabc8fd8347f0809989ec33dde4e1',
-      },
-      {
-        name: 'IBM Cybersecurity Analyst',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ZRJY5VDWJR62',
-      },
-      {
-        name: 'IBM AI Engineering',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/ALM859JN5WMG',
       }
     ],
     volunteering: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        name: 'Head Of speakers | Mozilla Campus Club at AAST',
+        description: 'Since Aug 2015',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
+        name: 'Volunteer | Bibliotheca Alexandrina',
+        description: 'joined Youth for Environmental Sustainability and Better Understanding (YESBU) Program started from July 2011, League of Young Masters (LYM) Program in February 2015 at Bibliotheca Alexandrina, as a student attending the periodical weekly meetings and preparing different presentations in scientific and cultural topics through the programs, These programs to build the capacity of youth and to increase the scientific and environmental awareness',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
+        name: 'Professional Speaker | AAST Firefox club',
+        description: 'Volunteer to give lectures about the company and technology news From Nov 2015 - Dec 2018',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Public Relations and speaker | Squnity',
+        description: 'Arab society to enrich the information security and advanced methods of penetration and provides new protection of our society news and also explain the bugs and security ArticlesArab society to enrich the information security and advanced methods of penetration and provides new protection of our society news and also explain the bugs and security Articles From Jun 2015 - Jul 2016',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Head Of Human Resources | AAST CCIT Students\'​ Council',
+        description: 'responsible for overseeing the implementation of university regulations, developing skills for council members, representing the Students\' Union in university administration, conducting questionnaires to collect information about student conditions and measuring student satisfaction. Additionally, they are responsible for solving student problems, monitoring the work of council members, doing volunteer work, conducting interviews, and acting as an intermediary between students and faculty. ',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Founder and CEO of Panacea project at AAST',
+        description: 'The project vision is to improve the prospects of the students graduating , and also to enhance the widespread of technology and the technical awareness in Egypt., It also seeks to remove the gap between the academic study and the work experience. From Jan 2016 - Nov 2019',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],

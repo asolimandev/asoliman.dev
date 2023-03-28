@@ -22,7 +22,7 @@ module.exports = {
         link: 'https://aastmtic.aast.edu/ebadge/index.aspx?guid=4324586d-bf30-4444-b2f6-230b0f6a4e53',
       },
       {
-        name: 'High School Diploma | AlSulaymaniyah Secondary School, Riyadh, Saudi Arabia',
+        name: 'High School Diploma | Al-Sulaymaniyah Secondary School, Riyadh, Saudi Arabia',
         description:
           'Grade of 99.95%',
         link: 'https://drive.google.com/file/d/1HKX6MNhmopaR0giLVW6tPhbvFBXdz3cB/view?usp=share_link',

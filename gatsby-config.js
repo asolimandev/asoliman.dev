@@ -28,7 +28,6 @@ module.exports = {
         link: 'https://drive.google.com/file/d/1HKX6MNhmopaR0giLVW6tPhbvFBXdz3cB/view?usp=share_link',
       }
     ],
-    projects: [],
     skills: [
       {
         name: 'Languages & Frameworks',

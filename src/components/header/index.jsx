@@ -16,6 +16,7 @@ const classes = {
   link:
     'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
 };
+
 const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);

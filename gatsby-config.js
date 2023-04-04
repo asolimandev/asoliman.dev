@@ -18,7 +18,7 @@ module.exports = {
       {
         name: 'Bachelor in Computer Science | Arab Academy for Science and Technology, Alexandria, Egypt',
         description:
-          'Cumulative GPA of 3.93/4.00 Excellent with Honors',
+          'Cumulative GPA of 3.93/4.00 Excellent with Honors.',
         link: 'https://aastmtic.aast.edu/ebadge/index.aspx?guid=4324586d-bf30-4444-b2f6-230b0f6a4e53',
       },
       {

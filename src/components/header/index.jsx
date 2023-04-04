@@ -1,8 +1,8 @@
 import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
-// import resumeFile from '../../../r.pdf';
-// import contactFile from '../../../c.pdf';
+import resumeFile from '../../../r.pdf';
+import contactFile from '../../../c.vcf';
 import profileImg from '../../images/profile.jpg';
 const classes = {
   wrapper: 'block mb-6 md:flex',
@@ -65,12 +65,12 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             </li>
           )}
           <li className={classes.item}>
-            <a className={classes.link} href="../../../r.pdf" type="pdf" download="Abdelrahman_Soliman_Resume.pdf">
+            <a className={classes.link} href={resumeFile} type="pdf" download="Abdelrahman_Soliman_Resume.pdf">
               Resume <u>↓</u>
             </a>
           </li>
           <li className={classes.item}>
-            <a className={classes.link} href="../../../c.vcf" type="text/vcard">
+            <a className={classes.link} href={contactFile} type="text/vcard">
               Contact
             </a>
           </li>

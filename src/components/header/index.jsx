@@ -72,13 +72,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {(
-          <li className={classes.item}>
-            <a className={classes.link} href={contactFile} download="Abdelrahman_Soliman.vcf">
-              Contact
-            </a>
-          </li>
-          )}
         </ul>
       </div>
     </div>

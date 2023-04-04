@@ -262,4 +262,12 @@ module.exports = {
       },
     },
   ],
+  module: {
+    rules: [
+      {
+        test: /\.vcf$/,
+        use: 'file-loader',
+      },
+    ],
+  },
 };

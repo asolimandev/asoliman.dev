@@ -72,12 +72,12 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           )}
           <li className={classes.item}>
             <a className={classes.link} href={resumeFile} type="pdf" download="Abdelrahman_Soliman_Resume.pdf">
-              Resume <u>↓</u>
+              <u>Resume ↓</u>
             </a>
           </li>
           <li className={classes.item}>
             <a className={classes.link} href={vcfDataUrl} download="asoliman.vcf">
-              Contact
+              Add Contact 👤+
             </a>
           </li>
         </ul>

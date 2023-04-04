@@ -21,7 +21,24 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const linkedin = get(metadata, 'linkedin', false);
   const twitter = get(metadata, 'twitter', false);
   const createVCard = () => {
-    const vcfData = `BEGIN:VCARD VERSION:3.0 FN;CHARSET=UTF-8:Abdelrahman Soliman N;CHARSET=UTF-8:Soliman;Abdelrahman;;; GENDER:M BDAY:19970923 EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:a.soliman2026@gmail.com EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:AbdelrahmanSoliman@cmail.carleton.ca TEL;TYPE=HOME,VOICE:6138533666 ADR;CHARSET=UTF-8;TYPE=HOME:;;3158 Uplands Dr;Ottawa;Ontario;K1V 0A8;Canada TITLE;CHARSET=UTF-8:Teaching Assistant ORG;CHARSET=UTF-8:Carleton University URL;CHARSET=UTF-8:https://asoliman.dev X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/asolimandev X-SOCIALPROFILE;TYPE=Github:https://github.com/asolimandev X-SOCIALPROFILE;TYPE=twitter:https://twitter.com/asolimandev REV:2023-04-04T12:39:15.346Z END:VCARD`;
+    const vcfData = `BEGIN:VCARD
+    VERSION:3.0
+    FN;CHARSET=UTF-8:Abdelrahman Soliman
+    N;CHARSET=UTF-8:Soliman;Abdelrahman;;;
+    GENDER:M
+    BDAY:19970923
+    EMAIL;CHARSET=UTF-8;TYPE=HOME,INTERNET:a.soliman2026@gmail.com
+    EMAIL;CHARSET=UTF-8;TYPE=WORK,INTERNET:AbdelrahmanSoliman@cmail.carleton.ca
+    TEL;TYPE=HOME,VOICE:6138533666
+    ADR;CHARSET=UTF-8;TYPE=HOME:;;3158 Uplands Dr;Ottawa;Ontario;K1V 0A8;Canada
+    TITLE;CHARSET=UTF-8:Teaching Assistant
+    ORG;CHARSET=UTF-8:Carleton University
+    URL;CHARSET=UTF-8:https://asoliman.dev
+    X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/asolimandev
+    X-SOCIALPROFILE;TYPE=Github:https://github.com/asolimandev
+    X-SOCIALPROFILE;TYPE=twitter:https://twitter.com/asolimandev
+    REV:2023-04-04T12:39:15.346Z
+    END:VCARD`;
     return vcfData;
   };
   const vCardData = createVCard();
@@ -77,7 +94,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           </li>
           <li className={classes.item}>
             <a className={classes.link} href={vcfDataUrl} download="asoliman.vcf">
-              Add Contact 👤+
+              <u>👤+</u>
             </a>
           </li>
         </ul>

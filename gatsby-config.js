@@ -222,6 +222,15 @@ module.exports = {
         path: `${__dirname}`,
         name: `resume`,
       },
+      
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}`,
+        name: `contact`,
+      },
+      
     },
     {
       resolve: `gatsby-transformer-remark`,

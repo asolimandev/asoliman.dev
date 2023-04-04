@@ -21,6 +21,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
   const resume = get(metadata, 'resume', false);
+  const contact = get(metadata, 'contact', false);
   return (
     <div className={classes.wrapper}>
       <div className={classes.imageWrapper}>

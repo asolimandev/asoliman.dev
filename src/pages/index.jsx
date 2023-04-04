@@ -52,6 +52,7 @@ export const pageQuery = graphql`
         author
         github
         linkedin
+        resume
         education {
           name
           description

@@ -20,9 +20,24 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
   const twitter = get(metadata, 'twitter', false);
-  const vcfData = `BEGIN:VCARD VERSION:3.0 FN;CHARSET=UTF-8:Abdelrahman Soliman N;CHARSET=UTF-8:Soliman;Abdelrahman;;; GENDER:M BDAY:19970923 EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:a.soliman2026@gmail.com EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:AbdelrahmanSoliman@cmail.carleton.ca TEL;TYPE=HOME,VOICE:6138533666 ADR;CHARSET=UTF-8;TYPE=HOME:;;3158 Uplands Dr;Ottawa;Ontario;K1V 0A8;Canada TITLE;CHARSET=UTF-8:Teaching Assistant ORG;CHARSET=UTF-8:Carleton University URL;CHARSET=UTF-8:https://asoliman.dev X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/asolimandev X-SOCIALPROFILE;TYPE=Github:https://github.com/asolimandev X-SOCIALPROFILE;TYPE=twitter:https://twitter.com/asolimandev REV:2023-04-04T12:39:15.346Z END:VCARD`;
-  const vcfDataUrl = `data:text/vcard;charset=utf-8,${encodeURIComponent(vcfData)}`;
-  const vcfDataUrl2 = `data:text/vcard;charset=utf-8,${vcfData}`;
+  // const vcfData = `BEGIN:VCARD VERSION:3.0 FN;CHARSET=UTF-8:Abdelrahman Soliman N;CHARSET=UTF-8:Soliman;Abdelrahman;;; GENDER:M BDAY:19970923 EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:a.soliman2026@gmail.com EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:AbdelrahmanSoliman@cmail.carleton.ca TEL;TYPE=HOME,VOICE:6138533666 ADR;CHARSET=UTF-8;TYPE=HOME:;;3158 Uplands Dr;Ottawa;Ontario;K1V 0A8;Canada TITLE;CHARSET=UTF-8:Teaching Assistant ORG;CHARSET=UTF-8:Carleton University URL;CHARSET=UTF-8:https://asoliman.dev X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/asolimandev X-SOCIALPROFILE;TYPE=Github:https://github.com/asolimandev X-SOCIALPROFILE;TYPE=twitter:https://twitter.com/asolimandev REV:2023-04-04T12:39:15.346Z END:VCARD`;
+  const createVCard = () => {
+    const vcfData = `BEGIN:VCARD
+VERSION:3.0
+N:Smith;John;;;
+FN:John Smith
+ORG:My Company
+TITLE:CEO
+TEL;TYPE=WORK,VOICE:+1-123-456-7890
+EMAIL;TYPE=PREF,INTERNET:john.smith@example.com
+URL:https://www.example.com
+ADR;TYPE=WORK:;;1234 Main St;Anytown;NY;12345;USA
+END:VCARD`;
+
+    return vcfData;
+  };
+  const vCardData = createVCard();
+  const vcfDataUrl = `data:text/vcard;charset=utf-8,${encodeURIComponent(vCardData)}`;
 
   return (
     <div className={classes.wrapper}>
@@ -74,35 +89,10 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             </a>
           </li>
           <li className={classes.item}>
-            <a className={classes.link} href={vcfDataUrl} type="text/vcard">
+            <a className={classes.link} href={vcfDataUrl} download="contact.vcf">
               Contact
             </a>
-          </li>
-          <li className={classes.item}>
-            <a className={classes.link} href={vcfDataUrl2} type="text/vcard">
-              Contact
-            </a>
-          </li>
-          <li className={classes.item}>
-            <a className={classes.link} href={vcfData} type="text/vcard">
-              Contact
-            </a>
-          </li>         
-          <li className={classes.item}>
-            <a className={classes.link} href={vcfDataUrl} download="asoliman.vcf" type="text/vcard">
-              Contact
-            </a>
-          </li>             
-          <li className={classes.item}>
-            <a className={classes.link} href={vcfDataUrl2} download="asoliman.vcf" type="text/vcard">
-              Contact
-            </a>
-          </li>          
-          <li className={classes.item}>
-            <a className={classes.link} href={vcfData} download="asoliman.vcf" type="text/vcard">
-              Contact
-            </a>
-          </li>   
+          </li>  
         </ul>
       </div>
     </div>

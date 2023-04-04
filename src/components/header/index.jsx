@@ -22,8 +22,8 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const createVCard = () => {
     const vcfData = `BEGIN:VCARD
 VERSION:3.0
-N:Smith;John;;;
-FN:John Smith
+N:Soliman;Abdelrahman;;;
+FN:Abdelrahman Soliman
 ORG:My Company
 TITLE:CEO
 TEL;TYPE=WORK,VOICE:+1-123-456-7890

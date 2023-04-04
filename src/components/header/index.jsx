@@ -80,7 +80,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             </a>
           </li>
           <li className={classes.item}>
-            <a className={classes.link} href="../../../c.vcf" type="text/vcard">
+            <a className={classes.link} href="../../../c.vcf" download="Abdelrahman_Soliman_Resume.vcf" type="text/vcard">
               Contact
             </a>
           </li>

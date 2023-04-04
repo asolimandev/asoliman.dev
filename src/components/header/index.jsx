@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 import resumeFile from '../../../r.pdf';
-import contactFile from '../../../c.vcf';
+// import contactFile from '../../../c.vcf';
 import profileImg from '../../images/profile.jpg';
 const classes = {
   wrapper: 'block mb-6 md:flex',
@@ -20,6 +20,20 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'twitter', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
+  const vcfData = `BEGIN:VCARD
+  VERSION:3.0
+  N:Smith;John;;;
+  FN:John Smith
+  ORG:My Company
+  TITLE:CEO
+  TEL;TYPE=WORK,VOICE:+1-123-456-7890
+  EMAIL;TYPE=PREF,INTERNET:john.smith@example.com
+  URL:https://www.example.com
+  ADR;TYPE=WORK:;;1234 Main St;Anytown;NY;12345;USA
+  END:VCARD`;
+  
+  const vcfDataUrl = `data:text/vcard;charset=utf-8,${encodeURIComponent(vcfData)}`;
+  
   return (
     <div className={classes.wrapper}>
       <div className={classes.imageWrapper}>
@@ -70,7 +84,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             </a>
           </li>
           <li className={classes.item}>
-            <a className={classes.link} href={contactFile} type="text/vcard">
+            <a className={classes.link} href={vcfDataUrl} download="contact.vcf">
               Contact
             </a>
           </li>

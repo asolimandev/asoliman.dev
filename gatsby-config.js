@@ -4,7 +4,7 @@ module.exports = {
     name: 'Abdelrahman Soliman',
     title: `Abdelrahman Soliman | Software Developer`,
     description: `Software Developer | Ottawa, Ontario`,
-    author: `asolimandev`,
+    twitter: `asolimandev`,
     github: `https://github.com/asolimandev`,
     linkedin: `https://www.linkedin.com/in/asolimandev/`,
     about: `Abdelrahman Soliman is a skilled computer science graduate with diverse programming experience, currently pursuing a Master's degree in Internet Security and working as a Research and Teaching Assistant at Carleton University. contact me at: abdelrahmansoliman (at) cmail.carleton.ca`,

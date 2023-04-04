@@ -49,7 +49,7 @@ export const pageQuery = graphql`
         title
         description
         about
-        author
+        twitter
         github
         linkedin
         education {

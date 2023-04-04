@@ -70,11 +70,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               Resume <u>↓</u>
             </a>
           </li>
-          <li className={classes.item}>
-            <a className={classes.link} href={contactFile} download="Abdelrahman_Soliman.vcf">
-              Add Contact 👤+
-            </a>
-          </li>
         </ul>
       </div>
     </div>

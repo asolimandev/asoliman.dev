@@ -24,12 +24,12 @@ const Header = ({ metadata = {}, noBlog = false }) => {
 VERSION:3.0
 N:Soliman;Abdelrahman;;;
 FN:Abdelrahman Soliman
-ORG:My Company
-TITLE:CEO
-TEL;TYPE=WORK,VOICE:+1-123-456-7890
-EMAIL;TYPE=PREF,INTERNET:john.smith@example.com
-URL:https://www.example.com
-ADR;TYPE=WORK:;;1234 Main St;Anytown;NY;12345;USA
+ORG:Carleton University
+TITLE:Teaching Assistant
+TEL;TYPE=WORK,VOICE:+1-613-853-3666
+EMAIL;TYPE=PREF,INTERNET:AbdelrahmanSoliman@cmail.carleton.ca
+URL:https://asoliman.dev
+ADR;TYPE=WORK:;;3158 Uplands Dr;Ottawa;Ontario;K1V 0A8;Canada
 END:VCARD`;
 
     return vcfData;

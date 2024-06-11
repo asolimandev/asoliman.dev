@@ -1,7 +1,7 @@
 import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
-import resumeFile from '../../../r.pdf';
+import resumeFile from '../../../CV.pdf';
 import profileImg from '../../images/profile.jpg';
 const classes = {
   wrapper: 'block mb-6 md:flex',

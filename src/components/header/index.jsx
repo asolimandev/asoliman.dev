@@ -29,7 +29,7 @@ TITLE:Teaching Assistant
 TEL;TYPE=WORK,VOICE:+1-613-853-3666
 EMAIL;TYPE=PREF,INTERNET:AbdelrahmanSoliman@cmail.carleton.ca
 URL:https://asoliman.dev
-ADR;TYPE=WORK:;;3158 Uplands Dr;Ottawa;Ontario;K1V 0A8;Canada
+ADR;TYPE=WORK:;;131 Glenhaven Pvt;Ottawa;Ontario;K1V 2B2;Canada
 END:VCARD`;
 
     return vcfData;

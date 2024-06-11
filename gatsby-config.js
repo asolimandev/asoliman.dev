@@ -3,11 +3,11 @@ module.exports = {
     siteUrl: `https://asoliman.dev/`,
     name: 'Abdelrahman Soliman',
     title: `Abdelrahman Soliman | Software Developer`,
-    description: `Software Developer | Ottawa, Ontario`,
+    description: `Cloud Engineer | Ottawa, Ontario`,
     twitter: `asolimandev`,
     github: `https://github.com/asolimandev`,
     linkedin: `https://www.linkedin.com/in/asolimandev/`,
-    about: `Abdelrahman Soliman is a skilled computer science graduate with diverse programming experience, currently pursuing a Master's degree in Internet Security and working as a Research and Teaching Assistant at Carleton University. contact me at: abdelrahmansoliman (at) cmail.carleton.ca`,
+    about: `Abdelrahman Soliman is a skilled cloud engineer with extensive experience in architecting and deploying cloud solutions on AWS and Azure. He is currently pursuing a Master's degree in Internet Security and working as a Research and Teaching Assistant at Carleton University. Contact me at: abdelrahmansoliman (at) cmail.carleton.ca`,
     education: [
       {
         name: 'Masters in Computer Science | Carleton University, Ottawa, Ontario',
@@ -32,31 +32,31 @@ module.exports = {
       {
         name: 'Research And Teaching Assistant | Carleton University',
         description: 'Sep 2022 - Present, Teaching cryptography and computer network courses, I closely guided students to success while conducting research that enhanced my expertise in internet security.',
+        link: 'https://security.scs.carleton.ca/people.html'
+      },
+      {
+        name: 'Cloud Engineer | ZADK Software Co.',
+        description: 'Sep 2021 - Sep 2023, Architected and deployed robust cloud solutions on AWS and Azure, enhancing deployment efficiency by 30%. Automated infrastructure management using Terraform and Ansible, streamlining operations and cutting manual tasks by 50%. Designed and maintained CI/CD pipelines with Jenkins and GitHub Actions, significantly improving deployment speed and reliability. Implemented cloud security best practices, ensuring compliance with industry standards and reducing security incidents by 20%. Led cloud migration projects, transitioning on-premises applications to the cloud, achieving a 25% reduction in operational costs. Monitored and optimized cloud performance, resulting in a 40% increase in system uptime and reliability.',
         link: ''
       },
       {
-        name: 'Software Developer | ZADK Software Company',
-        description: 'Sep 2021 - Sep 2022, Developed a well-received mobile app for booking sports facilities, focusing on user-friendliness, reliability, and essential features like real-time availability and user reviews.',
+        name: 'Network Administrator  | Egyptian Armed Forces',
+        description: 'Aug 2020 - Sep 2021, Oversaw and maintained critical network systems, ensuring reliable connectivity for over 400 military operations. Designed and deployed software solutions to improve operational efficiency and secure communications. Gained extensive training in military protocols, enhancing skills in discipline, teamwork, and strategic problem-solving.',
         link: ''
       },
       {
-        name: 'Software Developer | Egyptian Armed Forces',
-        description: 'Aug 2020 - Sep 2021, Applied software development skills in military operations, gaining appreciation for discipline, teamwork, and respect for authority through military training.',
+        name: 'DevOps Engineer | Information Technology Institute (ITI)',
+        description: 'Aug 2019 - Aug 2020, Implemented and managed CI/CD pipelines, automating deployment processes to enhance software delivery efficiency. Collaborated with dev and ops teams to improve workflows, system reliability, and infrastructure scalability. Utilized Docker and Kubernetes for containerization and orchestration, optimizing application deployment and performance',
         link: ''
       },
       {
-        name: 'Full-stack Developer Internship | Information Technology Institute (ITI)',
-        description: 'May 2020 - Aug 2020, Gained full-stack web development experience, applied agile methodologies, and improved teamwork skills through hands-on projects.',
+        name: 'DevOps Engineer | eSpace',
+        description: 'Aug 2018 - Aug 2019, Worked on various projects, gained experience in software dev methodologies. Applied programming skills with React and Node.js.',
         link: ''
       },
       {
-        name: 'Software Developer Internship | eSpace',
-        description: 'May 2019 - Aug 2019, Worked on diverse projects, gained experience and improved technical skills in the software development industry.',
-        link: ''
-      },
-      {
-        name: 'Web Developer Internship | Arab Petroleum Pipelines Company (SUMED)',
-        description: 'Jun 2018 - Aug 2018, Developed well-received web application for report management, gaining valuable experience in web development and project management.',
+        name: 'IT Support Specialist Internship | Arab Petroleum Pipelines Company (SUMED)',
+        description: 'Jun 2018 - Aug 2018, Provided technical support and troubleshooting for IT systems, ensuring optimal performance and security.',
         link: ''
       },
       {
@@ -124,43 +124,39 @@ module.exports = {
         link: 'https://courses.edx.org/certificates/b3adabc8fd8347f0809989ec33dde4e1',
       }
     ],
-    skills: [
-      {
-        name: 'Languages & Frameworks',
-        description: 'HTML, CSS, JavaScript, jQuery, Angular, React.js, REST APIs, Node.js, Ruby on Rails, PHP, C, C++, C#, Bash, Python, Rust, Go, Kotlin, Swift, Android, Java, .NET Framework'
-      },
-      {
-        name: 'Cloud Services',
-        description: 'AWS Lambda, GCP, AWS'
-      },
-      {
-        name: 'Databases',
-        description: 'MongoDB, MySQL'
-      },
-      {
-        name: 'Machine Learning & AI',
-        description: 'Machine Learning, Artificial Intelligence (AI)'
-      },
-      {
-        name: 'Cybersecurity & Network Security',
-        description: 'Cybersecurity, Network Security'
-      },
-      {
-        name: 'Soft Skills',
-        description: 'Agile Methodologies, Analytical Skills, Critical Thinking, Attention to Detail, Creativity Skills, Time Management, Communication, Adaptability (Easily Adaptable), Leadership, Teamwork'
-      },
-      {
-        name: 'Project Management & Research',
-        description: 'Project Management, Research'
-      },
-      {
-        name: 'Microsoft Office',
-        description: 'Microsoft Office'
-      },
-      {
-        name: 'Other Skills',
-        description: 'Git, Object-Oriented Programming (OOP), Problem Solving'
-      }
+    "skills": [
+        {
+            "name": "Languages & Frameworks",
+            "description": "Java, JavaScript, Python, Node.js, C#, SQL, NoSQL, REST APIs, React.js, Angular, Bash"
+        },
+        {
+            "name": "Cloud Services",
+            "description": "AWS Lambda, GCP, AWS, AWS Services (Lambda, S3, Cognito, ECS, IAM), Azure"
+        },
+        {
+            "name": "Databases",
+            "description": "MongoDB, MySQL, NoSQL"
+        },
+        {
+            "name": "DevOps & CI/CD",
+            "description": "Docker, Kubernetes, Jenkins, Ansible, GitHub Actions, GitLab, OpenShift, CI/CD"
+        },
+        {
+            "name": "Operating Systems",
+            "description": "Linux"
+        },
+        {
+            "name": "Soft Skills",
+            "description": "Problem Solving, Agile Methodologies, Analytical Skills, Critical Thinking, Attention to Detail, Creativity Skills, Time Management, Communication, Adaptability (Easily Adaptable), Leadership, Teamwork"
+        },
+        {
+            "name": "Project Management & Research",
+            "description": "Project Management, Research"
+        },
+        {
+            "name": "Other Skills",
+            "description": "Git, Object-Oriented Programming (OOP), SDLC"
+        }
     ],
     volunteering: [
       {
